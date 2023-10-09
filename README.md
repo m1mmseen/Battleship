@@ -20,7 +20,7 @@ A two-player console game where players take turns firing at ships with the aim 
 | Java | Console |
 
 ## Getting started
-<img alt="Static Badge" src="https://img.shields.io/badge/Status-Coming Soon-orange">
+Conditions: To start the application, Java must be installed and the execution of JAR files should be enabled. After cloning this repository, you can navigate to the "target" folder and run the command java -jar battleship-1.0.jar. The calculator should now launch in its own window.
 
 ## License
 GPL-3.0 license
