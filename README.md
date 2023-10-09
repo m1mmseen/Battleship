@@ -12,7 +12,26 @@ A two-player console game where players take turns firing at ships with the aim 
 
 
 ## About the project
-<img alt="Static Badge" src="https://img.shields.io/badge/Status-Coming Soon-orange">
+Each player gets a 10x10 grid.
+Players have a fleet of ships. The standard set includes:
+1 Aircraft Carrier (5 cells)
+1 Battleship (4 cells)
+1 Submarine (3 cells)
+1 Cruiser (3 cells)
+1 Destroyer (2 cells)
+
+NOTE: Provide coordinates in capital letters e.g. E1 E3.
+
+Players place their ships on the grid. Ships can be placed vertically or horizontally, but not diagonally. Ships cannot overlap.
+Gameplay:
+
+Players take turns firing at specific grid coordinates.
+If a shot hits an opponent's ship, it's marked with "X". If not, it's marked with "M".
+Once all cells of a ship have been hit, that ship is considered "sunk."
+The game inform the player when a ship has been sunk, e.g., "You've have sunk a Ship!"
+Winning:
+The first player to sink all of their opponent's ships wins.
+
 
 ## TechStack
 | Backend | Frontend |
